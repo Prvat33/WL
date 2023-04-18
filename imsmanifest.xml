@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="S4FQZ1IkX1ClN" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+<manifest identifier="crGpSSQskeEcZ" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
 	<metadata>
 		<schema>ADL SCORM</schema>
-		<schemaversion>CAM 1.3</schemaversion>
+		<schemaversion>1.2</schemaversion>
 		<lom:lom>
 			<lom:general>
 				<lom:title>
-					<lom:string>Tarif</lom:string>
+					<lom:langstring>Tarif 1</lom:langstring>
 				</lom:title>
 			</lom:general>
 			<lom:educational>
-				<lom:typicalLearningTime>
-					<lom:duration>PT1H0M0S</lom:duration>
-				</lom:typicalLearningTime>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
 			</lom:educational>
-			<lom:metaMetadata>
-				<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
-				<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
-			</lom:metaMetadata>
 		</lom:lom>
 	</metadata>
-	<organizations default="tarif_organization">
-		<organization identifier="tarif_organization">
-			<title>Tarif</title>
+	<organizations default="tarif_1_organization">
+		<organization identifier="tarif_1_organization">
+
+			<title>Tarif 1</title>
 			<item identifier="C56F8FF3-6374-4AE7-AF5D-D6A5901C4037" identifierref="resource">
 				<title>Untitled Quiz</title>
-				<imsss:sequencing>
-					<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
-			       	</imsss:sequencing>
 			</item>
-			<imsss:sequencing>
-				<imsss:controlMode flow="true"/>
-			</imsss:sequencing>
 		</organization>
 	</organizations>
 	<resources>
-		<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
 			<file href="res/data/apple-touch-icon.png"/>
 <file href="res/data/browsersupport.js"/>
 <file href="res/data/favicon.ico"/>
